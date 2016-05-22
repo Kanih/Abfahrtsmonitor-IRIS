@@ -1,0 +1,510 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		19E97BDE1CF1CCE200C5DF70 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19E97BDD1CF1CCE200C5DF70 /* AppDelegate.swift */; };
+		19E97BE01CF1CCE200C5DF70 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19E97BDF1CF1CCE200C5DF70 /* ViewController.swift */; };
+		19E97BE31CF1CCE200C5DF70 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19E97BE11CF1CCE200C5DF70 /* Main.storyboard */; };
+		19E97BE51CF1CCE200C5DF70 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 19E97BE41CF1CCE200C5DF70 /* Assets.xcassets */; };
+		19E97BE81CF1CCE200C5DF70 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19E97BE61CF1CCE200C5DF70 /* LaunchScreen.storyboard */; };
+		19E97BF31CF1CCE200C5DF70 /* Abfahrtsmonitor_IRISTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19E97BF21CF1CCE200C5DF70 /* Abfahrtsmonitor_IRISTests.swift */; };
+		19E97BFE1CF1CCE200C5DF70 /* Abfahrtsmonitor_IRISUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19E97BFD1CF1CCE200C5DF70 /* Abfahrtsmonitor_IRISUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		19E97BEF1CF1CCE200C5DF70 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 19E97BD21CF1CCE200C5DF70 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 19E97BD91CF1CCE200C5DF70;
+			remoteInfo = "Abfahrtsmonitor IRIS";
+		};
+		19E97BFA1CF1CCE200C5DF70 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 19E97BD21CF1CCE200C5DF70 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 19E97BD91CF1CCE200C5DF70;
+			remoteInfo = "Abfahrtsmonitor IRIS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		19E97BDA1CF1CCE200C5DF70 /* Abfahrtsmonitor IRIS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Abfahrtsmonitor IRIS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		19E97BDD1CF1CCE200C5DF70 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		19E97BDF1CF1CCE200C5DF70 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		19E97BE21CF1CCE200C5DF70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		19E97BE41CF1CCE200C5DF70 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		19E97BE71CF1CCE200C5DF70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		19E97BE91CF1CCE200C5DF70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		19E97BEE1CF1CCE200C5DF70 /* Abfahrtsmonitor IRISTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Abfahrtsmonitor IRISTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		19E97BF21CF1CCE200C5DF70 /* Abfahrtsmonitor_IRISTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Abfahrtsmonitor_IRISTests.swift; sourceTree = "<group>"; };
+		19E97BF41CF1CCE200C5DF70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		19E97BF91CF1CCE200C5DF70 /* Abfahrtsmonitor IRISUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Abfahrtsmonitor IRISUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		19E97BFD1CF1CCE200C5DF70 /* Abfahrtsmonitor_IRISUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Abfahrtsmonitor_IRISUITests.swift; sourceTree = "<group>"; };
+		19E97BFF1CF1CCE200C5DF70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		19E97BD71CF1CCE200C5DF70 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19E97BEB1CF1CCE200C5DF70 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19E97BF61CF1CCE200C5DF70 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		19E97BD11CF1CCE200C5DF70 = {
+			isa = PBXGroup;
+			children = (
+				19E97BDC1CF1CCE200C5DF70 /* Abfahrtsmonitor IRIS */,
+				19E97BF11CF1CCE200C5DF70 /* Abfahrtsmonitor IRISTests */,
+				19E97BFC1CF1CCE200C5DF70 /* Abfahrtsmonitor IRISUITests */,
+				19E97BDB1CF1CCE200C5DF70 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		19E97BDB1CF1CCE200C5DF70 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				19E97BDA1CF1CCE200C5DF70 /* Abfahrtsmonitor IRIS.app */,
+				19E97BEE1CF1CCE200C5DF70 /* Abfahrtsmonitor IRISTests.xctest */,
+				19E97BF91CF1CCE200C5DF70 /* Abfahrtsmonitor IRISUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		19E97BDC1CF1CCE200C5DF70 /* Abfahrtsmonitor IRIS */ = {
+			isa = PBXGroup;
+			children = (
+				19E97BDD1CF1CCE200C5DF70 /* AppDelegate.swift */,
+				19E97BDF1CF1CCE200C5DF70 /* ViewController.swift */,
+				19E97BE11CF1CCE200C5DF70 /* Main.storyboard */,
+				19E97BE41CF1CCE200C5DF70 /* Assets.xcassets */,
+				19E97BE61CF1CCE200C5DF70 /* LaunchScreen.storyboard */,
+				19E97BE91CF1CCE200C5DF70 /* Info.plist */,
+			);
+			path = "Abfahrtsmonitor IRIS";
+			sourceTree = "<group>";
+		};
+		19E97BF11CF1CCE200C5DF70 /* Abfahrtsmonitor IRISTests */ = {
+			isa = PBXGroup;
+			children = (
+				19E97BF21CF1CCE200C5DF70 /* Abfahrtsmonitor_IRISTests.swift */,
+				19E97BF41CF1CCE200C5DF70 /* Info.plist */,
+			);
+			path = "Abfahrtsmonitor IRISTests";
+			sourceTree = "<group>";
+		};
+		19E97BFC1CF1CCE200C5DF70 /* Abfahrtsmonitor IRISUITests */ = {
+			isa = PBXGroup;
+			children = (
+				19E97BFD1CF1CCE200C5DF70 /* Abfahrtsmonitor_IRISUITests.swift */,
+				19E97BFF1CF1CCE200C5DF70 /* Info.plist */,
+			);
+			path = "Abfahrtsmonitor IRISUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		19E97BD91CF1CCE200C5DF70 /* Abfahrtsmonitor IRIS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 19E97C021CF1CCE200C5DF70 /* Build configuration list for PBXNativeTarget "Abfahrtsmonitor IRIS" */;
+			buildPhases = (
+				19E97BD61CF1CCE200C5DF70 /* Sources */,
+				19E97BD71CF1CCE200C5DF70 /* Frameworks */,
+				19E97BD81CF1CCE200C5DF70 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Abfahrtsmonitor IRIS";
+			productName = "Abfahrtsmonitor IRIS";
+			productReference = 19E97BDA1CF1CCE200C5DF70 /* Abfahrtsmonitor IRIS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		19E97BED1CF1CCE200C5DF70 /* Abfahrtsmonitor IRISTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 19E97C051CF1CCE200C5DF70 /* Build configuration list for PBXNativeTarget "Abfahrtsmonitor IRISTests" */;
+			buildPhases = (
+				19E97BEA1CF1CCE200C5DF70 /* Sources */,
+				19E97BEB1CF1CCE200C5DF70 /* Frameworks */,
+				19E97BEC1CF1CCE200C5DF70 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				19E97BF01CF1CCE200C5DF70 /* PBXTargetDependency */,
+			);
+			name = "Abfahrtsmonitor IRISTests";
+			productName = "Abfahrtsmonitor IRISTests";
+			productReference = 19E97BEE1CF1CCE200C5DF70 /* Abfahrtsmonitor IRISTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		19E97BF81CF1CCE200C5DF70 /* Abfahrtsmonitor IRISUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 19E97C081CF1CCE200C5DF70 /* Build configuration list for PBXNativeTarget "Abfahrtsmonitor IRISUITests" */;
+			buildPhases = (
+				19E97BF51CF1CCE200C5DF70 /* Sources */,
+				19E97BF61CF1CCE200C5DF70 /* Frameworks */,
+				19E97BF71CF1CCE200C5DF70 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				19E97BFB1CF1CCE200C5DF70 /* PBXTargetDependency */,
+			);
+			name = "Abfahrtsmonitor IRISUITests";
+			productName = "Abfahrtsmonitor IRISUITests";
+			productReference = 19E97BF91CF1CCE200C5DF70 /* Abfahrtsmonitor IRISUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		19E97BD21CF1CCE200C5DF70 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Nicolai Kaschta";
+				TargetAttributes = {
+					19E97BD91CF1CCE200C5DF70 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = D832Z374L4;
+					};
+					19E97BED1CF1CCE200C5DF70 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = D832Z374L4;
+						TestTargetID = 19E97BD91CF1CCE200C5DF70;
+					};
+					19E97BF81CF1CCE200C5DF70 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = D832Z374L4;
+						TestTargetID = 19E97BD91CF1CCE200C5DF70;
+					};
+				};
+			};
+			buildConfigurationList = 19E97BD51CF1CCE200C5DF70 /* Build configuration list for PBXProject "Abfahrtsmonitor IRIS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 19E97BD11CF1CCE200C5DF70;
+			productRefGroup = 19E97BDB1CF1CCE200C5DF70 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				19E97BD91CF1CCE200C5DF70 /* Abfahrtsmonitor IRIS */,
+				19E97BED1CF1CCE200C5DF70 /* Abfahrtsmonitor IRISTests */,
+				19E97BF81CF1CCE200C5DF70 /* Abfahrtsmonitor IRISUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		19E97BD81CF1CCE200C5DF70 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19E97BE81CF1CCE200C5DF70 /* LaunchScreen.storyboard in Resources */,
+				19E97BE51CF1CCE200C5DF70 /* Assets.xcassets in Resources */,
+				19E97BE31CF1CCE200C5DF70 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19E97BEC1CF1CCE200C5DF70 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19E97BF71CF1CCE200C5DF70 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		19E97BD61CF1CCE200C5DF70 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19E97BE01CF1CCE200C5DF70 /* ViewController.swift in Sources */,
+				19E97BDE1CF1CCE200C5DF70 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19E97BEA1CF1CCE200C5DF70 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19E97BF31CF1CCE200C5DF70 /* Abfahrtsmonitor_IRISTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19E97BF51CF1CCE200C5DF70 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19E97BFE1CF1CCE200C5DF70 /* Abfahrtsmonitor_IRISUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		19E97BF01CF1CCE200C5DF70 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 19E97BD91CF1CCE200C5DF70 /* Abfahrtsmonitor IRIS */;
+			targetProxy = 19E97BEF1CF1CCE200C5DF70 /* PBXContainerItemProxy */;
+		};
+		19E97BFB1CF1CCE200C5DF70 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 19E97BD91CF1CCE200C5DF70 /* Abfahrtsmonitor IRIS */;
+			targetProxy = 19E97BFA1CF1CCE200C5DF70 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		19E97BE11CF1CCE200C5DF70 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				19E97BE21CF1CCE200C5DF70 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		19E97BE61CF1CCE200C5DF70 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				19E97BE71CF1CCE200C5DF70 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		19E97C001CF1CCE200C5DF70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		19E97C011CF1CCE200C5DF70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		19E97C031CF1CCE200C5DF70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Abfahrtsmonitor IRIS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "NK.Abfahrtsmonitor-IRIS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		19E97C041CF1CCE200C5DF70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Abfahrtsmonitor IRIS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "NK.Abfahrtsmonitor-IRIS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		19E97C061CF1CCE200C5DF70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Abfahrtsmonitor IRISTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "NK.Abfahrtsmonitor-IRISTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Abfahrtsmonitor IRIS.app/Abfahrtsmonitor IRIS";
+			};
+			name = Debug;
+		};
+		19E97C071CF1CCE200C5DF70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Abfahrtsmonitor IRISTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "NK.Abfahrtsmonitor-IRISTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Abfahrtsmonitor IRIS.app/Abfahrtsmonitor IRIS";
+			};
+			name = Release;
+		};
+		19E97C091CF1CCE200C5DF70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Abfahrtsmonitor IRISUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "NK.Abfahrtsmonitor-IRISUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Abfahrtsmonitor IRIS";
+			};
+			name = Debug;
+		};
+		19E97C0A1CF1CCE200C5DF70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Abfahrtsmonitor IRISUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "NK.Abfahrtsmonitor-IRISUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Abfahrtsmonitor IRIS";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		19E97BD51CF1CCE200C5DF70 /* Build configuration list for PBXProject "Abfahrtsmonitor IRIS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19E97C001CF1CCE200C5DF70 /* Debug */,
+				19E97C011CF1CCE200C5DF70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		19E97C021CF1CCE200C5DF70 /* Build configuration list for PBXNativeTarget "Abfahrtsmonitor IRIS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19E97C031CF1CCE200C5DF70 /* Debug */,
+				19E97C041CF1CCE200C5DF70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		19E97C051CF1CCE200C5DF70 /* Build configuration list for PBXNativeTarget "Abfahrtsmonitor IRISTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19E97C061CF1CCE200C5DF70 /* Debug */,
+				19E97C071CF1CCE200C5DF70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		19E97C081CF1CCE200C5DF70 /* Build configuration list for PBXNativeTarget "Abfahrtsmonitor IRISUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19E97C091CF1CCE200C5DF70 /* Debug */,
+				19E97C0A1CF1CCE200C5DF70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 19E97BD21CF1CCE200C5DF70 /* Project object */;
+}
