@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Abfahrtsmonitor IRIS/ViewController.swift"
+            timestampString = "485627251.956349"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "25"
+            endingLineNumber = "25"
+            landmarkName = "ViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Abfahrtsmonitor_IRIS.ViewController.url.getter : Swift.String"
+                  moduleName = "Abfahrtsmonitor IRIS"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nicolaikaschta/Documents/git/Abfahrtsmonitor%20IRIS/Abfahrtsmonitor%20IRIS/ViewController.swift"
+                  timestampString = "485808939.21318"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "53">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Abfahrtsmonitor_IRIS.ViewController.init (nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.NSBundle&gt;) -&gt; Abfahrtsmonitor_IRIS.ViewController"
+                  moduleName = "Abfahrtsmonitor IRIS"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nicolaikaschta/Documents/git/Abfahrtsmonitor%20IRIS/Abfahrtsmonitor%20IRIS/ViewController.swift"
+                  timestampString = "485808939.214226"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "311">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Abfahrtsmonitor_IRIS.ViewController.init (coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;Abfahrtsmonitor_IRIS.ViewController&gt;"
+                  moduleName = "Abfahrtsmonitor IRIS"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nicolaikaschta/Documents/git/Abfahrtsmonitor%20IRIS/Abfahrtsmonitor%20IRIS/ViewController.swift"
+                  timestampString = "485808939.214326"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "232">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Abfahrtsmonitor IRIS/ViewController.swift"
+            timestampString = "485628137.657287"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "11"
+            endingLineNumber = "11"
+            landmarkName = "ViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Abfahrtsmonitor_IRIS.ViewController.__deallocating_deinit"
+                  moduleName = "Abfahrtsmonitor IRIS"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nicolaikaschta/Documents/git/Abfahrtsmonitor%20IRIS/Abfahrtsmonitor%20IRIS/ViewController.swift"
+                  timestampString = "485628137.659179"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Abfahrtsmonitor_IRIS.ViewController.init (nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.NSBundle&gt;) -&gt; Abfahrtsmonitor_IRIS.ViewController"
+                  moduleName = "Abfahrtsmonitor IRIS"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nicolaikaschta/Documents/git/Abfahrtsmonitor%20IRIS/Abfahrtsmonitor%20IRIS/ViewController.swift"
+                  timestampString = "485628137.659281"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "65">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Abfahrtsmonitor_IRIS.ViewController.init (coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;Abfahrtsmonitor_IRIS.ViewController&gt;"
+                  moduleName = "Abfahrtsmonitor IRIS"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nicolaikaschta/Documents/git/Abfahrtsmonitor%20IRIS/Abfahrtsmonitor%20IRIS/ViewController.swift"
+                  timestampString = "485628137.659348"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "26">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
