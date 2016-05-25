@@ -14,20 +14,23 @@ class ViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSo
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        let requestURL = NSURL(string:url)
-        let request = NSURLRequest(URL: requestURL!)
-        webView.loadRequest(request)
-        self.stationen.delegate = self
-        self.stationen.dataSource = self
-        
+		self.updateWebView()
     }
-    
-    var kurzel:String = ""
+	
+	func updateWebView() {
+		let row = stationen.selectedRowInComponent(0)
+		let kurzel = self.stationskurzel[row]
+		let url = "http://iris.noncd.db.de/wbt/js/index.html?title=0&impressum=0&typ=ab&zeilen=17&bhf=\(kurzel)"
+		
+		let requestURL = NSURL(string: url)
+		let request = NSURLRequest(URL: requestURL!)
+		webView.loadRequest(request)
+		self.stationen.delegate = self
+		self.stationen.dataSource = self
+	}
+	
     var stationskurzel = ["rhk", "rm", "rh"]
-    var kurzel = stationskurzel[pickerView.selectedRowInComponent(0)]
-    var url = "http://iris.noncd.db.de/wbt/js/index.html?title=0&impressum=0&typ=ab&zeilen=17&bhf=\(kurzel)"
-    
+	
     @IBOutlet weak var webView: UIWebView!
     @IBOutlet weak var stationen: UIPickerView!
 
@@ -55,5 +58,9 @@ class ViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSo
         // Return a string from the array for this row.
         return stationskurzel[row]
     }
+	
+	func pickerView(pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
+		updateWebView()
+	}
 
 }
